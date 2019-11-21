@@ -1,0 +1,5 @@
+Bundle-Name: npm-plyr-provider
+Bundle-SymbolicName: npm.plyr.provider
+Bundle-Version: 1.0.0
+Web-ContextPath: /npm-plyr-provider
+

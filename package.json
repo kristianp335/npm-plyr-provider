@@ -1,0 +1,14 @@
+{
+	"dependencies": {
+		"plyr": "3.5.6"
+	},
+	"devDependencies": {
+		"liferay-npm-bundler": "2.14.1"
+	},
+	"main": "index.js",
+	"name": "npm-plyr-provider",
+	"scripts": {
+		"build": "liferay-npm-bundler"
+	},
+	"version": "1.0.0"
+}
