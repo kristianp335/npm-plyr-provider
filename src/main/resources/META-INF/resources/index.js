@@ -1,3 +1,5 @@
-import Plyr from 'plyr';
+var Plyr = require('plyr');
+
+alert("hello plyr");
  
-const player = new Plyr('#player');
+var player = new Plyr('#player');
