@@ -13,5 +13,5 @@ Checkout package.json and the babel.rc files for examples of using Liferay bundl
 
 **The gradle dependencies in this project are setup for Liferay 7.2, you can amend them for late versions of 7.0, and Liferay 7.1**
 
-**TODO - At the moment I am not dynamically async loading the CSS which may exist in a module. Currently you would need to put that CSS in your theme or whatever. Next job is to look at this
+**TODO - At the moment I am not dynamically async loading the CSS which may exist in a module. Currently you would need to put that CSS in your theme or whatever. Next job is to look at this**
 
