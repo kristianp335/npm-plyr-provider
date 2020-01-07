@@ -1,5 +1,3 @@
-var Plyr = require('plyr');
+import Plyr from 'plyr';
 
-alert("hello plyr");
- 
 var player = new Plyr('#player');
