@@ -16,7 +16,7 @@ Checkout package.json, .babelrc, .npmbundlerrc, and index.js files for examples 
 
 **The gradle dependencies in this project are setup for Liferay 7.2, you can amend them for late versions of 7.0, and Liferay 7.1**
 
-** Thanks to Ivan for his amazing Liferay Bundler work and help debugging **
+**Thanks to Ivan for his amazing Liferay Bundler work and help debugging**
 
 [Liferay NPM Bundler](https://www.npmjs.com/package/liferay-npm-bundler)
 
