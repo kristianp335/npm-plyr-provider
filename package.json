@@ -6,7 +6,7 @@
 		"liferay-npm-bundler": "2.17.0",
 		"babel-cli": "6.26.0",
 		"babel-preset-es2015": "6.24.1",
-		"babel-preset-liferay-project": "1.6.1"
+		"liferay-npm-bundler-loader-style-loader": "2.17.0"
 	},
 	"main": "index.js",
 	"name": "npm-plyr-provider",

@@ -1,3 +1,9 @@
 {
-	"dump-report": true
+	"dump-report": true,
+	"rules": [
+        {
+            "test": "\\.css$",
+            "use": ["style-loader"]
+        }
+    ]
 }
