@@ -18,5 +18,7 @@ Checkout package.json, .babelrc, .npmbundlerrc, and index.js files for examples 
 
 **Thanks to Ivan for his amazing Liferay Bundler work and help debugging**
 
+![picture](plyr_demo_image.jpg)
+
 [Liferay NPM Bundler](https://www.npmjs.com/package/liferay-npm-bundler)
 
