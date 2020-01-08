@@ -30,7 +30,7 @@ In Liferay I have a fragment with just some html and JS.
 
 The HTML is as follows:
 
-...
+```
 
 <div class="fragment_43564">
   <div class="plyr__video-embed" id="player">
@@ -43,16 +43,16 @@ The HTML is as follows:
   </div>
 </div>
 
-...
+```
 
 The JS is:
 
-...
+```
 
 Liferay.Loader.require("npm-plyr-provider@1.0.0", function(player) {
 });
 
-...
+```
 
 ![picture](fragment_view.jpg)
 
