@@ -18,7 +18,41 @@ Checkout package.json, .babelrc, .npmbundlerrc, and index.js files for examples 
 
 **Thanks to Ivan for his amazing Liferay Bundler work and help debugging**
 
+[Liferay NPM Bundler](https://www.npmjs.com/package/liferay-npm-bundler)
+
 ![picture](plyr_demo_image.jpg)
 
-[Liferay NPM Bundler](https://www.npmjs.com/package/liferay-npm-bundler)
+As you can see in the image above the Plyr module basically swaps out the video player with a better more responsive and accessible version which can be styled.
+
+[Plyr documentation](https://github.com/sampotts/plyr)
+
+In Liferay I have a fragment with just some html and JS.
+
+The HTML is as follows:
+
+...
+
+<div class="fragment_43564">
+  <div class="plyr__video-embed" id="player">
+      <iframe
+          src="https://www.youtube.com/embed/bTqVqk7FSmY?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+          allowfullscreen
+          allowtransparency
+          allow="autoplay"
+      ></iframe>
+  </div>
+</div>
+
+...
+
+The JS is:
+
+...
+
+Liferay.Loader.require("npm-plyr-provider@1.0.0", function(player) {
+});
+
+...
+
+![picture](fragment_view.jpg)
 
