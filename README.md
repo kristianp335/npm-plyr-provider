@@ -1,6 +1,6 @@
 ## Dynamic NPM dependency loading in Liferay
 
-This is an example of a npm dependency module which in Liferay we call a provider. 
+This is an example of a npm dependency module which in Liferay we call a provider. Confirmed to work in 7.2 and 7.3 depending on how you target the Gradle dependencies.
 
 It is useful because you can dynamically add npm dependencies to your Liferay as OSGI modules and then call them asynchronously. You can call the module by loading via Liferay.Loader. In this example I am loading Plyr but it could be almost any dependency. I am also dynamically loading the CSS due to trick in Liferay Bundler which allows me to take CSS in a dependency and create an AMD module out of it. This way I can dynamically load the CSS at the same time as I load the JS.
 
